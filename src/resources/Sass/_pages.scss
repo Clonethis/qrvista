@@ -1,0 +1,89 @@
+.page {
+  // border: 1px solid red;
+  padding: 0 3vw;
+  // margin-top: $margin-sections;
+  background-color: $primary-color;
+  min-height: 90vh;
+  margin: 0 $basic-text-margin;
+  .content {
+    //   margin:$basic-text-margin;
+    padding: $basic-text-margin 0;
+    p {
+      margin-left: $basic-text-margin + $basic-text-margin;
+    }
+    h1 {
+      text-align: center;
+      color: $heading-color;
+      //   background-color: $converse-color;
+      margin-bottom: $heading-margin;
+      //   border-bottom: 0.5rem $converse-color solid;
+      // border-style: ;
+      &::after {
+        // content: " a";
+        content: " ";
+        // margin-top: 10rem;
+        // style:none;
+        // padding-top: 10rem;
+        background-color: $converse-color;
+        display: block;
+        width: 10rem;
+        margin: auto;
+        border-bottom: 0.5rem $converse-color solid;
+      }
+    }
+
+    padding: $basic-text-margin 0;
+    .text {
+      line-height: 1.4;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $primary-color;
+      a {
+        color: $primary-color;
+        font-weight: bold;
+        &:hover {
+          color: $converse-color;
+        }
+      }
+
+      h2 {
+        padding-top: 2rem;
+        font-size: 3rem;
+        color: $heading-color;
+      }
+      h2,
+      .left {
+        &::after {
+          // content: " a";
+          // margin-top: rem;
+          content: " ";
+          // style:none;
+          background-color: $converse-color;
+          display: block;
+          width: 10rem;
+          // margin:auto;
+          border-bottom: 0.5rem $converse-color solid;
+        }
+      }
+
+      .bullet {
+        padding: 2rem 0 2rem 2rem;
+      }
+      .paragraph {
+        padding-top: $basic-text-margin;
+      }
+      .centered {
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: $longest-phone) {
+    padding: 0 3vh;
+    margin: 0 1rem;
+  }
+}
+.page .center {
+  min-height: 100vh;
+  padding: 0 10vh;
+  background-color: $secondary-color;
+}

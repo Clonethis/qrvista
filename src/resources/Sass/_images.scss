@@ -1,0 +1,42 @@
+.main-logo {
+  background-color: $secondary-color;
+  display: flex;
+  &-large {
+    display: flex;
+    justify-content: center;
+    min-width: 80vw;
+    min-width: 30vh;
+    margin: auto;
+  }
+}
+.logo {
+  margin: $logo-margin;
+
+  // color: $primary-color;
+  // background-color: $primary-color;
+  &-large {
+    margin: $logo-margin;
+    width: 70vw;
+  }
+  @media (max-width: $long-phone) {
+    & {
+      margin-top: $logo-margin + 2rem;
+      width: 40vw;
+    }
+  }
+  @media (max-width: $small-phone) {
+    & {
+      width: 60vw;
+    }
+  }
+  @media (max-width: $medium-phone) {
+    & {
+      margin-top: $logo-margin;
+      margin-bottom: $logo-margin - 2rem;
+    }
+  }
+  width: 30vw;
+  img {
+    fill: black;
+  }
+}

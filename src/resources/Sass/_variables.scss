@@ -1,0 +1,54 @@
+// COLORS //
+$primary-color: #59666f;
+$heading-color: #3f474d;
+$secondary-color: #ffffff;
+$converse-color: #e6412e;
+$footer-background-color: #1f2930;
+$footer-text-color: rgb(121, 131, 139);
+$basic-shadow: 0px 10px 20px rgba(0, 0, 0, 0.438);
+$subtle-shadow: 0px 1px 5px rgba(0, 0, 0, 0.438);
+// $icon-fill: $primary-color;
+
+// FONTS //
+// font-family: 'Ubuntu', sans-serif;
+
+// $text-font-other: "Ubuntu", sans-serif;
+// font-family: "Titillium";
+// Nunito -> 300
+// Rubik -> 300
+
+$text-font-basic: "proxima-nova", "Proxima Nova", sans-serif;
+$mobile-font: 1.3rem;
+
+// MEASURES
+
+$logo-margin: 3rem;
+$margin-sections: 6rem;
+$heading-margin: 3rem;
+// padding //
+$padding-square: 4rem 6rem;
+// $smaller-square: 3rem 2rem;
+$basic-text-margin: 3rem;
+
+// RESPONSIVENESS //
+$longest-phone: 1038px;
+$long-phone: 968px;
+$medium-phone: 712px;
+$small-phone: 658px;
+$smallest-phone: 446px;
+$death-bottom-phone: 300px;
+
+// ANIMATIONS //
+$basic-transition-duration: 0.3s;
+$medium-transition-duration: 1s;
+// MEASURES //
+$block-height: 90vh;
+
+$block-padding: 3rem 0;
+$circle-radius: 18vw;
+$circle-radius-icons: 8vw;
+$circle-radius-responsive: 13vw;
+$container-margin: 10rem 20rem;
+$small-padding-text: 2rem;
+$secondary-text: 3rem;
+$icons-size: 8rem;

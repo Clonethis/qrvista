@@ -1,0 +1,76 @@
+.four-box {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: $secondary-color;
+  flex-wrap: wrap;
+  //   max-height: 70vh;
+  padding: 3rem 0;
+  @media (max-width: $medium-phone) {
+    & {
+      padding: 3rem 0;
+    }
+  }
+  &-dojebany {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.box-area {
+  // display: flexbox;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  // background-color: red;
+  .image {
+    font-size: 10rem;
+  }
+  .below-text {
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    @media (max-width: $longest-phone) {
+      & {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+.box {
+  padding: $padding-square;
+  background-color: $primary-color;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  // margin-right: 2rem;
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+
+  // @media (max-width: $long-phone) {
+  //   & {
+  //     max-height: 20vh;
+  //     font-size: 1.2rem;
+  //     min-height: 20vh;
+  //     margin-right: 0.5rem;
+  //     margin-top: 0.5rem;
+  //     font-size: 1rem;
+  //     min-width: 30vw;
+  //     padding: 1rem;
+  //   }
+  // }
+  min-height: 38vh;
+  min-width: 33vw;
+
+  & h2 {
+    width: max-content;
+
+    justify-content: center;
+    text-transform: uppercase;
+  }
+}
+.square {
+  min-width: 30vw;
+  min-height: 30vw;
+}
