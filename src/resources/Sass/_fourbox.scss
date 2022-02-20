@@ -1,20 +1,38 @@
+.box-link{
+  &:hover{
+    color: $box-hover-color;
+  }
+}
 .four-box {
+
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-self: center;
   background-color: $secondary-color;
   flex-wrap: wrap;
   //   max-height: 70vh;
-  padding: 3rem 0;
+  padding: 3rem 0rem;
   @media (max-width: $medium-phone) {
     & {
       padding: 3rem 0;
     }
   }
   &-dojebany {
+    margin: 0rem 10rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    @media (max-width:$medium-phone) {
+      &{
+        margin: 0rem 3rem;
+      }
+    }
+    
+    @media (max-width:$smallest-phone) {
+      &{
+        margin: 0rem 1rem;
+      }
+    }
   }
 }
 .box-area {
@@ -22,13 +40,20 @@
   // justify-content: center;
   // align-items: center;
   text-align: center;
+
   // background-color: red;
   .image {
-    font-size: 10rem;
+    font-size: $medium-image-size;
+    @media (max-width:$longest-phone) {
+      &{
+        font-size: $smallest-image-size;
+      }
+      
+    }
   }
   .below-text {
     font-size: larger;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     @media (max-width: $longest-phone) {
       & {
@@ -70,7 +95,18 @@
     text-transform: uppercase;
   }
 }
+.shadow{
+  box-shadow: $basic-shadow;
+}
 .square {
-  min-width: 30vw;
-  min-height: 30vw;
+  min-width: 20vw;
+  min-height: 20vw;
+  text-align: center;
+  @media (max-width:$medium-phone) {
+    &{
+          
+      width: 20vw;
+      height: 20vw;
+    }
+  }
 }

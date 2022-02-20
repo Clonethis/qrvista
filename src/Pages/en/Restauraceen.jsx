@@ -1,9 +1,11 @@
-import Headeren from "./Headeren";
 
+import OnlyLogoen from "../../elements/OnlyLogoen";
+import Image from "../../elements/Image";
+import photo from "../../resources/images/content/food1.jpg"
 export default function Restauraceen(props) {
   return(
       <div className="page">
-        <Headeren/>
+        <OnlyLogoen/>
         <div className="content">
           <div className="text">
           <h1 className="cssanimation fadeInBottom">
@@ -12,15 +14,16 @@ export default function Restauraceen(props) {
 <div className="paragraph">
 
 In the pleasant atmosphere of the Vista hotel restaurant, we prepare breakfast, lunch, dinner or catering for conference events.
+
 </div>
 
 <div className="paragraph">
 
-We serve breakfast for guests, but also for non-accommodated guests in the restaurant from 7am to 10am.
-We offer a lunch menu from 11am till 2pm in the restaurant, which consists of soup and several main courses. You can find the daily menu on our website in the restaurant section - weekly menu.
-The restaurant is open daily for our guests until 10pm. Throughout the day you can choose dishes from our menu.
-Alternatively, you can use the Room service. You can order by telephone in your room. Just call No. 94 and place your order with staff in the restaurant from 12pm to 10:30pm.
-You will find the menu at the bottom of this document.
+We serve breakfast for guests, but also for non-accommodated guests in the restaurant from <div className="strong">7am to 10am.</div>
+We offer a lunch menu from <div className="strong">11am till 2pm</div> in the restaurant, which consists of soup and several main courses. You can find the daily menu on our website in the restaurant section - weekly menu.
+The restaurant is open daily for our guests until <div className="strong">10pm</div>. Throughout the day you can choose dishes from our menu.
+Alternatively, you can use the Room service. You can order by telephone in your room. Just call No. 94 and place your order with staff in the restaurant from <div className="strong">12pm to 10:30pm.</div>
+You will find the menu at the bottom of this document: <a href="https://www.vista-hotel.cz/files/2021/10/962d7f3df4ab86fef915cd9c82d33535.pdf">Vista Restaurant menu</a>
 </div>
 <div className="paragraph">
 
@@ -45,6 +48,7 @@ Contact email:  <a href="mailto:akce@vista-hotel.cz">akce@vista-hotel.cz</a>
 
           </div>
         </div>
+        <Image name={photo}/>
       </div>
   );
 }

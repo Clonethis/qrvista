@@ -2,23 +2,23 @@ import {
   Route,Routes,
   
 } from "react-router-dom";
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
-import { Link } from "react-router-dom";
-import { useState } from "react/cjs/react.production.min";
-import FourBox from "./FourBox";
-import Header from "./Header";
-import Lorem from "./Lorem";
+// import { Link } from "react-router-dom";
+// import { useState } from "react/cjs/react.production.min";
+// import FourBox from "./FourBox";
+// import Header from "./Header";
+// import Lorem from "./Lorem";
 import Freetime from "./Pages/Freetime";
 import Hotel from "./Pages/Hotel";
 import Konference from "./Pages/Konference";
 import Home from "./Pages/Home";
 import Restaurace from "./Pages/Restaurace";
-import Footer from "./Footer";
+import Footer from "./elements/Footer";
 // en pages
 import Homeen from "./Pages/en/Homeen";
 import Freetimeen from "./Pages/en/Freetimeen";
-import Headeren from "./Pages/en/Headeren";
+// import Headeren from "./Pages/en/Headeren";
 import Hoteleen from "./Pages/en/Hoteleen";
 import Konferenceen from "./Pages/en/Konferenceen";
 import Restauraceen from "./Pages/en/Restauraceen";

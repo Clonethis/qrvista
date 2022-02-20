@@ -1,7 +1,7 @@
-import FourBox from "../FourBox";
-import Textos from "./Textos";
-import Header from "../Header"
-import OnlyLogo from "../OnlyLogo";
+import FourBox from "../elements/FourBox";
+import Textos from "../elements/Textos";
+// import Header from "../elements/Header"
+import OnlyLogo from "../elements/OnlyLogo";
 export default function Home(){
   return(
       <div className="page">

@@ -1,9 +1,11 @@
-import Headeren from "./Headeren";
 
+import OnlyLogoen from "../../elements/OnlyLogoen";
+import Image from "../../elements/Image";
+import photo from "../../resources/images/content/hotel1.jpg"
 export default function Hoteleen(props) {
   return(
       <div className="page">
-          <Headeren/>
+          <OnlyLogoen/>
           <div className="content">
             <div className="text">
             <h1 className="cssanimation fadeInBottom">
@@ -18,20 +20,23 @@ We offer several room categories for accommodation which you can choose from. We
 
 Composition of the rooms
               </h2>
+              <div className="paragraph">
               <ul className="basic-ul">
 
-    <li className="list-item">Standard room</li>
-    <li className="list-item">Business room</li>
-    <li className="list-item">Deluxe room</li>
-    <li className="list-item">Apartment Standard</li>
-    <li className="list-item">Apartment Business</li>
-    <li className="list-item">Apartment Deluxe</li>
+    <li className="list-item1">Standard room</li>
+    <li className="list-item1">Business room</li>
+    <li className="list-item1">Deluxe room</li>
+    <li className="list-item1">Apartment Standard</li>
+    <li className="list-item1">Apartment Business</li>
+    <li className="list-item1">Apartment Deluxe</li>
               </ul>
+
+              </div>
 <div className="paragraph">
 
-Standard rooms are always equipped with 2 separate beds, LED TV with Czech and foreign channels, telephone, Wi-Fi connection. Of course there is a private bathroom with shower, including sanitary facilities.
-Compared to the Standard rooms, the Business rooms are additionally equipped with air conditioning, a coffee set with a selection of coffee and teas and natural cosmetics.
-Deluxe rooms have the same equipment as Business rooms, but in addition, they have a Julius Meinl capsule coffee machine, natural organic cosmetics for even greater comfort of our guests.
+<div className="paragraph"><div className="strong">Standard </div>rooms are always equipped with 2 separate beds, LED TV with Czech and foreign channels, telephone, Wi-Fi connection. Of course there is a private bathroom with shower, including sanitary facilities.</div>
+<div className="paragraph">Compared to the Standard rooms, the <div className="strong">Business</div> rooms are additionally equipped with air conditioning, a coffee set with a selection of coffee and teas and natural cosmetics.</div>
+<div className="paragraph"><div className="strong">Deluxe</div> rooms have the same equipment as Business rooms, but in addition, they have a Julius Meinl capsule coffee machine, natural organic cosmetics for even greater comfort of our guests.</div>
 </div>
 
 <div className="paragraph">
@@ -43,8 +48,47 @@ The apartments (41 m2) consist of two parts: first part is the bedroom with LED 
 You can also use modern apartments for a long-term accommodation, or they can be a great choice for families with children.
 </div>
 
+<h2>
+
+Telephone and Internet
+</h2>
+<div className="paragraph">
+
+  When calling from room to room, dial the number of the required room and confirm with the SEND button on the phone.
+  We offer free wireless internet access (Wi-Fi) in all rooms and other public areas of the hotel. No password is required for the connection.
+</div>
+
+<h2>
+
+Safety instructions
+</h2>
+<div className="paragraph">
+
+In case of a fire or an emergency, please remain calm and follow the evacuation plan.
+</div>
+<ul>
+
+ <li>Leave the room immediately.</li>
+ <li>Go down the marked escape routes. (The diagram is located on the door of the room.)</li>
+ <li>Do not use elevators.</li>
+ <li>Go to the evacuation site.</li>
+ <li>Follow the instructions of the hotel staff.</li>
+</ul>
+<div className="paragraph">
+
+If you cannot leave the room: 
+</div>
+<ul>
+
+<li>Call the reception immediately.</li>
+<li>Stay in place and wait for the intervention of professional rescuers. </li>
+</ul>
+
+
+
             </div>
           </div>
+          <Image name={photo}/>
       </div>
   );
 }

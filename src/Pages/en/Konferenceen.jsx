@@ -1,9 +1,12 @@
-import Headeren from "./Headeren";
 
+import OnlyLogoen from "../../elements/OnlyLogoen";
+import Image from "../../elements/Image";
+import photo from "../../resources/images/content/business1.jpg"
+import Tabulkaen from "../../elements/Tabulkaen";
 export default function Konferenceen(props) {
   return(
       <div className="page">
-        <Headeren/>
+        <OnlyLogoen/>
         <div className="content">
           <div className="text"> 
           <h1 className="css-animation fadeInBottom">
@@ -17,11 +20,13 @@ Hotel Vista has air-conditioned conference rooms. The Large conference hall, the
           </div>
 
 
-
-<div className="h2">
+<Tabulkaen/>
+<h2>
 
 Business area
-</div>
+</h2>
+
+
 <div className="paragraph">
 
 We will be happy to provide you with the following:
@@ -31,16 +36,16 @@ We will be happy to provide you with the following:
     <li className="list-item">There is a computer with internet connection in the hotel lobby, which you can use for your needs at any time</li>
     <li className="list-item">At the reception, we will be happy to print or scan any necessary documents for a fee</li>
 </ul>
-<h2>
-
-Telephone and Internet
-</h2>
-<div className="paragraph">
-
-When calling from room to room, dial the number of the required room and confirm with the SEND button on the phone.
-We offer free wireless internet access (Wi-Fi) in all rooms and other public areas of the hotel. No password is required for the connection.</div>
 </div>
         </div>
+<Image name={photo}/>
       </div>
+  
+  
+  
+  
   );
 }
+
+
+

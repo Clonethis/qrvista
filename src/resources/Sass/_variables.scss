@@ -3,10 +3,13 @@ $primary-color: #59666f;
 $heading-color: #3f474d;
 $secondary-color: #ffffff;
 $converse-color: #e6412e;
-$footer-background-color: #1f2930;
+$footer-background-color: #14191d;
 $footer-text-color: rgb(121, 131, 139);
 $basic-shadow: 0px 10px 20px rgba(0, 0, 0, 0.438);
 $subtle-shadow: 0px 1px 5px rgba(0, 0, 0, 0.438);
+$basic-text-color: #dbdbdb;
+$body-color: #2e3133;
+$box-hover-color:$basic-text-color;
 // $icon-fill: $primary-color;
 
 // FONTS //
@@ -19,12 +22,18 @@ $subtle-shadow: 0px 1px 5px rgba(0, 0, 0, 0.438);
 
 $text-font-basic: "proxima-nova", "Proxima Nova", sans-serif;
 $mobile-font: 1.3rem;
-
+$heading-text-color:#fff;
+// $anchor-text-color: #
 // MEASURES
 
 $logo-margin: 3rem;
 $margin-sections: 6rem;
 $heading-margin: 3rem;
+// IMAGES RESOLUTIONS
+$large-image-size: 25rem;
+$medium-image-size: 15rem;
+$small-image-size:10rem;
+$smallest-image-size:5rem;
 // padding //
 $padding-square: 4rem 6rem;
 // $smaller-square: 3rem 2rem;

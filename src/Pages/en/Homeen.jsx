@@ -1,13 +1,14 @@
-import Headeren from "./Headeren";
-import FourBoxen from "./Fourboxen";
-import Textosen from "./Textosen";
+
+import FourBoxen from "../../elements/Fourboxen";
+import Textosen from "../../elements/Textosen";
+import OnlyLogoen from "../../elements/OnlyLogoen";
 
 export default function Homeen(props) {
   return(
       <div className="page">
-        <Headeren/>
-        <FourBoxen/>
+        <OnlyLogoen/>
         <Textosen/>
+        <FourBoxen/>
       </div>
   );
 }
