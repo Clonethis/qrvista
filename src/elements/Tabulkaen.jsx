@@ -11,15 +11,18 @@ export default function Tabulkaen(props) {return(
     
             <tbody><tr className="first">
                 <th className="upper first">Name of Space</th>
-                <th className="upper"><MdOutlineSquareFoot/><br/>Square meters</th>
-                <th className="upper"><IoSunnyOutline/><br/>Daily light</th>
-                <th className="upper"><IoMdResize/><br/>Dimensions</th>
+                <th className="upper"><div className="icon"><MdOutlineSquareFoot/></div>
+                Square meters</th>
+                <th className="upper"><div className="icon"><IoSunnyOutline/></div>
+                Daily light</th>
+                <th className="upper"><div className="icon"><IoMdResize/></div>
+                Dimensions</th>
                 <th className="upper"><span class="icon icon-wine"><FaCocktail/> </span>
-                <br/> Coctails</th>
+                 Coctails</th>
                 <th className="upper"><span class="icon icon-theatre"><GiTheater/> </span> 
-                <br/>Theatre </th>
+                Theatre </th>
                 <th className="upper"><span class="icon icon-school"><MdSchool/> </span> 
-                <br/>School desk </th>
+                School desk </th>
                 <th className="upper"><span class="icon icon-meeting"></span> U <div className="fa">
                     
                     {/* <FaUnderline/> */}
@@ -100,6 +103,6 @@ export default function Tabulkaen(props) {return(
                 {/* <td><a class="conference-gallery" data-gallery="11" href="/en/fotogallery">GALLERY</a></td> */}
             </tr>
         </tbody>
-        <Images className="table-images"/>
+        {/* <Images className="table-images"/> */}
         </table>
 )}

@@ -1,7 +1,7 @@
 
 import OnlyLogo from "../elements/OnlyLogo";
 import Image from "../elements/Image";
-import photo from "../resources/images/content/hotel1.jpg"
+import photo from "../resources/images/content/hotel2.jpg"
 
 export default function Hotel(){
     return(

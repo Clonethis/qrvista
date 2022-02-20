@@ -1,7 +1,7 @@
 
 import OnlyLogoen from "../../elements/OnlyLogoen";
 import Image from "../../elements/Image";
-import photo from "../../resources/images/content/hotel1.jpg"
+import photo from "../../resources/images/content/hotel2.jpg"
 export default function Hoteleen(props) {
   return(
       <div className="page">

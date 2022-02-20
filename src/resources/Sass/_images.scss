@@ -43,3 +43,14 @@
     fill: black;
   }
 }
+.icon{
+
+  &::after{
+    background-color: aqua;
+    display: block;
+    // margin: 20rem;
+    // margin: auto;
+content:"";
+    // content:"ahooj";
+  }
+}

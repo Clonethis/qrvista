@@ -2,6 +2,9 @@ import OnlyLogo from "../elements/OnlyLogo";
 import Tabulecka from "../elements/Tabulecka";
 import Image from "../elements/Image";
 import photo from "../resources/images/content/business1.jpg"
+import Images from "../elements/Images";
+import image1 from "../resources/images/content/konf1.jpg";
+import image2 from "../resources/images/content/konf2.jpg";
 export default function Konference(){
     return(
         <div className="page">
@@ -12,7 +15,7 @@ export default function Konference(){
 
             Hotel Vista disponuje klimatizovanými konferenčními sály - Velký sál, sál Revista a 2 malé salónky. Velký sál s kapacitou až 130 osob, ideální pro konání konferencí, banketů, prezentací produktů a jiných příležitostí.  Tento Velký sál lze rozdělit na dva menší sály, které jsou velmi dobře vybaveny i po technické stránce (kvalitní ozvučení, mikrofon, Wi-Fi připojení, plátno, data projektor, zatemnění).  Salonek Revista je vhodný až pro 50 osob ve školním uspořádání. 
 
-                               
+                     <Images name={image1} name2={image2} h="hidden"/>          
 <Tabulecka/>
 <h2>
 

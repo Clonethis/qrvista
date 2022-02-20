@@ -19,16 +19,43 @@ img{
 
 }
   }
+  .container-images{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    // resize: none;
+    // margin: auto;
+
+  }
+  .hidden{
+    display: flex;
+  margin-top: 2rem;
+  // resize: none;
+  justify-content: center;
+  align-items: center;
+  //
+    @media (min-width:$medium-phone){
+      
+    display: none;
+    // background-color: aqua;
+    // content: "";
+  
+  }}
   &-images{
     display: flex;
     justify-content: center;
     align-items: stretch;
     max-width: 80vw;
+    :first-child{
+      margin-right: $basic-image-margin;
+    }
     img{
 
       max-width: 40vw;
 
     }
+
   }
   .divider{
     width: 100vw;

@@ -79,6 +79,12 @@ body a:hover {
   fill: black;
 }
 
+.icon::after {
+  background-color: aqua;
+  display: block;
+  content: "";
+}
+
 .header {
   display: flex;
   background-color: #ffffff;
@@ -266,11 +272,31 @@ ol li {
   display: flex;
   align-items: center;
 }
+.page .container-images {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.page .hidden {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 712px) {
+  .page .hidden {
+    display: none;
+  }
+}
 .page-images {
   display: flex;
   justify-content: center;
   align-items: stretch;
   max-width: 80vw;
+}
+.page-images :first-child {
+  margin-right: 3rem;
 }
 .page-images img {
   max-width: 40vw;

@@ -1,7 +1,8 @@
 
 import OnlyLogo from "../elements/OnlyLogo";
-import Image from "../elements/Image";
-import photo from "../resources/images/content/free3.jpg"
+import Images from "../elements/Images";
+import photo from "../resources/images/content/free5.jpg"
+import photo2 from "../resources/images/content/free6.jpg"
 export default function Freetime(){
     return(
         <div className="page">
@@ -42,7 +43,7 @@ Ohledně bližších informací a rezervace kontaktujte recepci: 99
   </div>
 </div>
             </div>
-            <Image name={photo}/>
+            <Images name={photo} name2={photo2} />
             
         </div>
     );

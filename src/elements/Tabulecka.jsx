@@ -8,14 +8,18 @@ import {MdGroups} from "react-icons/md";
 export default function Tabulecka(props) {
     return(
         <table class="conference-table">
+{/* <h2 >
+
+Specifikace prostorů
+</h2> */}
             <tbody><tr className="first">
                 <th className="upper first">Název místnosti</th>
-                <th className="upper"><IoMdResize/>
-                <br/>Plocha salónku</th>
-                <th className="upper"><IoSunnyOutline/>
-                <br/>Denní světlo</th>
-                <th className="upper"><MdOutlineSquareFoot/>
-                <br/>Rozměry</th>
+                <th className="upper"><span className="icon"><IoMdResize/></span>
+                Plocha salónku</th>
+                <th className="upper"><span className="icon"><IoSunnyOutline/></span>
+                Denní světlo</th>
+                <th className="upper"><span className="icon"><MdOutlineSquareFoot/></span>
+                Rozměry</th>
                 <th className="upper"><span class="icon icon-wine"><FaCocktail/></span> Koktejl</th>
                 <th className="upper"><span class="icon icon-theatre"><GiTheater/></span> Divadlo</th>
                 <th className="upper"><span class="icon icon-school"><MdSchool/></span> Škola</th>
@@ -95,7 +99,7 @@ export default function Tabulecka(props) {
                 {/* <td><a class="conference-gallery" data-gallery="11" href="/cs/fotogalerie">GALERIE</a></td> */}
             </tr>
         </tbody>
-        <Images className="table-images"/>
+        {/* <Images className="table-images"/> */}
         </table>
     )
 }

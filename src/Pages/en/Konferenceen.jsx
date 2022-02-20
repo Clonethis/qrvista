@@ -1,8 +1,12 @@
 
 import OnlyLogoen from "../../elements/OnlyLogoen";
 import Image from "../../elements/Image";
+import Images from "../../elements/Images";
 import photo from "../../resources/images/content/business1.jpg"
 import Tabulkaen from "../../elements/Tabulkaen";
+
+import image1 from "../../resources/images/content/konf1.jpg";
+import image2 from "../../resources/images/content/konf2.jpg";
 export default function Konferenceen(props) {
   return(
       <div className="page">
@@ -19,7 +23,7 @@ export default function Konferenceen(props) {
 Hotel Vista has air-conditioned conference rooms. The Large conference hall, the Revista meeting room and 2 small lounges can be found on the ground floor of the hotel. The Large conference hall with a capacity of up to 100 people is ideal for conferences, banquets, product presentations and other occasions. It can be divided into two smaller meeting rooms, which are very well equipped from a technical point of view (quality sound system, microphone, Wi-Fi connection, screen, data projector, dimming). The Revista meeting room is suitable for up to 50 people in a school setting.
           </div>
 
-
+<Images name={image1} name2={image2} h="hidden"/>
 <Tabulkaen/>
 <h2>
 

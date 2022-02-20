@@ -2,7 +2,7 @@
 
 import OnlyLogoen from "../../elements/OnlyLogoen";
 import Image from "../../elements/Image";
-import photo from "../../resources/images/content/free3.jpg"
+import photo from "../../resources/images/content/free5.jpg"
 
 export default function Freetimeen(props) {
   return(
