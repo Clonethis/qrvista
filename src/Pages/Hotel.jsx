@@ -50,6 +50,10 @@ Skladba pokojů
 Moderní apartmány využijete i při dlouhodobém ubytování, nebo můžou být skvělou volbou pro rodiny s dětmi. 
 </div>
             </div>
+            <h2>Sortiment na recepci</h2>
+            <div className="paragraph">
+            Po 22. hodině nebo v průběhu celého dne je možné si zakoupit malé občerstvení na recepci. Nabídku sortimentu naleznete <a href="/nabidka">zde.</a>
+            </div>
             <h2>
 
             Internet a telefon

@@ -22,7 +22,7 @@ import Freetimeen from "./Pages/en/Freetimeen";
 import Hoteleen from "./Pages/en/Hoteleen";
 import Konferenceen from "./Pages/en/Konferenceen";
 import Restauraceen from "./Pages/en/Restauraceen";
-
+import Nabidka from "./Pages/Nabidka";
 function App() {
 
   // const [count, setCount] = useState(0);
@@ -56,6 +56,7 @@ function App() {
         <Route path="/volnycas" element={<Freetime />} />
         <Route path="/restaurace" element={<Restaurace />} />
         <Route path="/konference" element={<Konference />} />
+        <Route path="/nabidka" element={<Nabidka />} />
 
         <Route path="/en" element={<Homeen />} />
         <Route path="/hotel-en" element={<Hoteleen />} />
