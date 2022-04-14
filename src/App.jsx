@@ -1,6 +1,6 @@
 import {
-  Route,Routes,
-  
+  Route, Routes,
+
 } from "react-router-dom";
 // import { useHistory } from 'react-router-dom';
 
@@ -34,45 +34,47 @@ function App() {
   // }
   // function Nice(){
   //   if(count%2===0){
-
+  // this.props.history.listen((location, action) => {
+  //   setTimeout(() => { document.getElementById('root').scrollIntoView({ behavior: "smooth" }) }, 777)
+  // })
   //   } 
   // }
 
   return (
 
 
-<div className="app">
+    <div className="app">
+      {/* <Header/> */}
+      {/* This is the alias of BrowserRouter i.e. Router */}
+      {/* <Router> */}
+      {/* <Header/> */}
+
+      <Routes>
         {/* <Header/> */}
-   {/* This is the alias of BrowserRouter i.e. Router */}
-   {/* <Router> */}
-   {/* <Header/> */}
-   
-        <Routes>
-   {/* <Header/> */}
-          <Route exact path="/" element={<Home/>} />
-          <Route path="/hotel" element={<Hotel/>} />
-          <Route path="/volnycas" element={<Freetime/>}/>
-          <Route path="/restaurace" element={<Restaurace/>}/>
-          <Route path="/konference" element={<Konference/>} />
-          
-          <Route path="/en" element={<Homeen/>} />
-          <Route path="/hotel-en" element={<Hoteleen/>} />
-          <Route path="/volnycas-en" element={<Freetimeen/>}/>
-          <Route path="/restaurace-en" element={<Restauraceen/>}/>
-          <Route path="/konference-en" element={<Konferenceen/>} />
-          {/* <Route path="/freetime" component={Freetime} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/hotel" element={<Hotel />} />
+        <Route path="/volnycas" element={<Freetime />} />
+        <Route path="/restaurace" element={<Restaurace />} />
+        <Route path="/konference" element={<Konference />} />
+
+        <Route path="/en" element={<Homeen />} />
+        <Route path="/hotel-en" element={<Hoteleen />} />
+        <Route path="/volnycas-en" element={<Freetimeen />} />
+        <Route path="/restaurace-en" element={<Restauraceen />} />
+        <Route path="/konference-en" element={<Konferenceen />} />
+        {/* <Route path="/freetime" component={Freetime} />
           <Route path="/konference" component={Konference} />
             <Route path="/restaurant" component={Restaurace} /> */}
-            {/* <Route path="*" element={<NotFound />}></Route> */}
-            {/* <Redirect to="/" /> */}
-        </Routes>
+        {/* <Route path="*" element={<NotFound />}></Route> */}
+        {/* <Redirect to="/" /> */}
+      </Routes>
       {/* </Router> */}
-        {/* <Header/>
+      {/* <Header/>
         <h1>NICE</h1>
         <Lorem/>
         <FourBox/> */}
-<Footer/>
-      </div>
+      <Footer />
+    </div>
   );
 }
 

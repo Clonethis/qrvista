@@ -43,14 +43,25 @@
     fill: black;
   }
 }
-.icon{
-
-  &::after{
+.icon {
+  &::after {
     background-color: aqua;
     display: block;
     // margin: 20rem;
     // margin: auto;
-content:"";
+    content: "";
     // content:"ahooj";
+  }
+}
+.footer-icon {
+  // background-color: aqua;
+  color: $secondary-color;
+  font-size: large;
+  font-size: 3.9rem;
+  margin-bottom: 0.2rem;
+  animation-duration: $basic-transition-duration;
+  // margin-top: 2rem;
+  :hover {
+    color: $converse-color;
   }
 }
