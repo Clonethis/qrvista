@@ -60,7 +60,7 @@ Moderní apartmány využijete i při dlouhodobém ubytování, nebo můžou bý
             </h2>
             <div className="paragraph">
 
-Při volání z pokoje do pokoje, vytočte číslo požadovaného pokoje a potvrďte tlačítkem SEND na telefonu.
+Při volání z pokoje do pokoje, vytočte číslo požadovaného pokoje a potvrďte tlačítkem SEND na telefonu. Recepce má číslo 99.
 Nabízíme Vám bezplatné bezdrátové internetové připojení (Wi-Fi) na všech pokojích a ostatních veřejných prostor hotelu.  K připojení není potřeba žádné heslo. 
             </div>
  
