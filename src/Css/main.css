@@ -285,7 +285,7 @@ ol li {
 }
 
 .rwd-table {
-  background: #040c14;
+  background: #3A3E3B;
   color: #fff;
   border-radius: 0.4em;
   overflow: hidden;
@@ -296,6 +296,9 @@ ol li {
 }
 .rwd-table tr {
   border-color: #172b3f;
+}
+.rwd-table tr :not(:first-child) {
+  text-align: center;
 }
 .rwd-table th, .rwd-table td {
   margin: 0.5em 1em;

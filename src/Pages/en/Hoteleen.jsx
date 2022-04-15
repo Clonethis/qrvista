@@ -47,6 +47,10 @@ The apartments (41 m2) consist of two parts: first part is the bedroom with LED 
 
 You can also use modern apartments for a long-term accommodation, or they can be a great choice for families with children.
 </div>
+<h2>Sortiment on recepction</h2>
+            <div className="paragraph">
+           Throughout the day and even after 22. hour you can stop on our reception and buy snacks from our range of products. List of products on reception could be find <a href="/nabidka">here.</a>
+            </div>
 
 <h2>
 

@@ -287,7 +287,7 @@ $breakpoint-alpha: 480px; // adjust to your needs
 
 
 .rwd-table {
-  background: #040c14;
+  background: #3A3E3B;
   color: #fff;
   border-radius: .4em;
   overflow: hidden;
@@ -297,6 +297,11 @@ $breakpoint-alpha: 480px; // adjust to your needs
   }
   tr {
     border-color: lighten(#091119, 10%);
+    
+    :not(:first-child){
+  
+      text-align:center;
+    }
   }
   th, td {
     margin: .5em 1em;
