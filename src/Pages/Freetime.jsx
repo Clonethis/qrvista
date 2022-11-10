@@ -19,9 +19,13 @@ export default function Freetime() {
                         Ohledně bližších informací a rezervace kontaktujte recepci: 99
                     </div>
                     <div className="paragraph">
+                    Pro vyplnění volného času můžete využít malou hernu v přízemí hotelu, kde najdete různé stolní hry či Playstation 4. Stolní hry jsou k zapůjčení zdarma. PS je za poplatek 290 Kč/den (za nevrácení ovladačů nejpozději na konci dne, účtujeme poplatek 290 Kč). Více informací Vám podají kolegové na recepci.
+                    </div>
+                    <div className="paragraph">
 
                         Brno je městem veletrhů, ale moravská metropole nabízí také spoustu historických památek, kulturních akcí a vyžití pro děti. Můžete zde navštívit plno zajímavých míst a přírodních krás v samotném městě i jeho blízkém okolí.
                     </div>
+
                     <div className="paragraph">
                         <ul className="basic-ul">
 
